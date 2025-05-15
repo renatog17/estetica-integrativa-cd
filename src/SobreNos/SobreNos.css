@@ -1,0 +1,9 @@
+.sobre-nos{
+    display: flex;
+    flex-direction: row;
+    padding: 0 25vh;
+}
+
+.sobre-nos img{
+    width: 70vh;
+}
