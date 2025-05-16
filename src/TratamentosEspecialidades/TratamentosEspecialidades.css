@@ -1,0 +1,88 @@
+.tratamentos-especialidades{
+    padding: 12vh 25vh;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    height: 220vh;
+}
+
+.par-intro{
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas iguais */
+  gap: 20px; /* espaço entre as colunas e linhas */
+  padding: 20px;
+}
+
+.service{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.service h1{
+    font-size: 20px;
+}
+
+.service p{
+    height: 180px;
+}
+
+.service a{
+    text-decoration: none;
+    color: var(--color-primary);
+}
+
+.saiba-mais a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.bloco-final{
+    box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    height: 20vh;
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bloco-final p{
+    margin: 0 40px;
+    width: 590px;
+    font-size: 20px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-primary);
+    color: white;
+    width: 300px;
+    height: 60px;
+    border-radius: 14px;
+}

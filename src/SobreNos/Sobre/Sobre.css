@@ -1,0 +1,83 @@
+.sobre{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.sobre img{
+    border-radius: 30px;
+    height: 60vh;
+    box-shadow: -10px 10px 0px var(--color-primary);
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.about-me{
+    font-size: 12px;
+}
+
+.aboutme-content{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 27px;
+}
+
+.button a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-primary);
+    width: 40vh;
+    border-radius: 3px;
+    height: 6vh;
+}
+
+.description{
+    text-align: justify;
+}
+
+.linha-do-tempo{
+    margin-top: 40px;
+}
+
+.linha-do-tempo h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.eventos {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.evento {
+    text-align: center;
+    max-width: 150px;
+}
+
+.circulo {
+    width: 80px;
+    height: 80px;
+    background-color: var(--color-accent);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin: 0 auto 10px auto;
+    font-size: 16px;
+}
+
+.evento p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}
+

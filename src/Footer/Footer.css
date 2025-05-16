@@ -1,0 +1,19 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    gap: 210px;
+    height: 30vh;
+    background-color: var(--color-primary);
+    padding: 8vh 25vh;
+}
+
+.feitopor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-primary);
+    padding-bottom: 10px;
+    background: linear-gradient(to bottom, var(--color-primary) 80%, #000000 100%);
+}
+
+
