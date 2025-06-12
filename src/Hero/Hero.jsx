@@ -9,12 +9,10 @@ import HeroMain from './HeroMain/HeroMain';
 
 export default function Hero(){
     return (
-        <div className='container-hero'>
+        <div>
             <TopBar></TopBar>
             <SecondaryTopBar></SecondaryTopBar>
             <HeroMain></HeroMain>
-
-            
         </div>
     )
 }

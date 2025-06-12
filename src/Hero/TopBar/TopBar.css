@@ -1,29 +1,52 @@
 .hero-top-bar {
     background-color: var(--color-primary);
-    height: 4vh;
-    padding: 0 25vh;
+    width: 100%;
+    padding: 0.5rem 1rem;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap; /* permite quebrar linha automaticamente */
     justify-content: space-between;
     align-items: center;
     color: var(--color-white);
+    gap: 0.5rem;
+    box-sizing: border-box; /* evita que padding cause overflow */
 }
 
-.hero-icons{
+.hero-icons {
     display: flex;
     align-items: center;
+    gap: 0.5rem; /* espaçamento entre ícones e texto */
+    flex: 1 1 auto; /* permite que o item cresça e encolha conforme o espaço */
     justify-content: center;
-    color: var(--color-white);
     font-size: 1.2rem;
 }
 
-.hero-icons p{
+.hero-icons p {
     font-size: 1rem;
 }
 
 .hero-icons a {
-    margin-top: 0.6vh;
     color: var(--color-white);
     text-decoration: none;
-    margin-right: 0.8vh;
+}
+
+@media (max-width: 768px) {
+    .hero-top-bar {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.75rem;
+        padding: 1rem;
+    }
+
+    .hero-icons {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .hero-icons p {
+        font-size: 1.1rem;
+    }
+
+    .hero-icons a {
+        font-size: 1.5rem;
+    }
 }

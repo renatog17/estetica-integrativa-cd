@@ -1,19 +1,23 @@
-.footer{
-    display: flex;
-    flex-direction: row;
-    gap: 210px;
-    height: 30vh;
-    background-color: var(--color-primary);
-    padding: 8vh 25vh;
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /* permite que os elementos quebrem linha em telas menores */
+  gap: clamp(2rem, 10vw, 12rem); /* espaço entre os blocos que se adapta à tela */
+  height: auto; /* deixa o height se ajustar ao conteúdo */
+  background-color: var(--color-primary);
+  padding: 4vh clamp(2rem, 5vw, 10rem);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.feitopor{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--color-primary);
-    padding-bottom: 10px;
-    background: linear-gradient(to bottom, var(--color-primary) 80%, #000000 100%);
+.feitopor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, var(--color-primary) 80%, #000000 100%);
+  padding: 1rem;
+  font-size: clamp(0.75rem, 2vw, 1rem);
+  text-align: center;
+  color: var(--color-white);
 }
-
-
