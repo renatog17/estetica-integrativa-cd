@@ -64,3 +64,28 @@
   max-width: 500px;
   height: auto;
 }
+
+@media (max-width: 768px) {
+  .image{
+    display: none;
+  }
+  
+  .hero-main {
+    padding: 0vh 4vw;       /* um pouco mais de "respiro" que 2vw */
+    gap: 1.4rem;          /* levemente mais espaçado */
+    min-height: auto;     /* remove a altura mínima exagerada */
+  }
+
+  .content {
+    padding: 3vh 0;       /* reduzido de 4vh para 3vh — mais leveza */
+  }
+
+  .hero-text h1,
+  .hero-secondary-text {
+    max-width: 100%;
+  }
+
+  .hero-button {
+    margin-top: 0.8rem;   /* ajuste sutil no botão */
+  }
+}

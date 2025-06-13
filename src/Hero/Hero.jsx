@@ -10,7 +10,9 @@ import HeroMain from './HeroMain/HeroMain';
 export default function Hero(){
     return (
         <div>
-            <TopBar></TopBar>
+            <div className="topbar">
+            <TopBar/>
+            </div>
             <SecondaryTopBar></SecondaryTopBar>
             <HeroMain></HeroMain>
         </div>
